@@ -1,6 +1,3 @@
-# Interior-Design-Landing-Page
-INeuron - Project 10 
-
 ![made-with-HTML](https://img.shields.io/badge/Made%20with-HTML%20&%20CSS-blue?style=for-the-badge)
 ![Time taken](https://img.shields.io/badge/Time%20taken-02H%3A30M%3A00S-tomato?style=for-the-badge&logo=Clockify)
 [![Demo](https://img.shields.io/badge/See%20Demo-Visit-green?style=for-the-badge&logo=web)](https://interior-design-landing-page.vercel.app/)
