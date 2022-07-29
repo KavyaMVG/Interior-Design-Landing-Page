@@ -13,7 +13,7 @@
 }
 main{
     height: 100vh;
-    background: url("assets/interior-design.bmp") no-repeat center center fixed; 
+    background: url("assets/Interior-design-bg.jpg") no-repeat center center fixed; 
     background-size: cover;
 }
 .navbar{
@@ -61,7 +61,7 @@ main{
 
 .btn-cta{
     text-transform: uppercase;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
     border-radius: 4rem;
     border: 2px solid #fff;
     background: transparent;
@@ -72,6 +72,7 @@ main{
 }
 
 .quote{
+    position: relative;
     font-weight: 600;
     width: 75%;
     background-color: rgba(255,255,255,0.1);
@@ -95,3 +96,40 @@ main{
     padding: 1rem;
 }
 
+.pin{
+    padding: 1px;
+    background-color:white;
+    position: absolute;
+}
+
+.pin-down{
+    height: 4rem;
+    right: 50%;
+    top: 100%;
+}
+.pin-right{
+    width: 4rem;
+    left: 100%; 
+    top: 50%  
+}
+
+.pin-down::after{
+    content: "";
+    padding: 0.5rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 100%;
+    left: -7px;
+}
+
+
+.pin-right::after{
+    content: "";
+    padding: 0.5rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -7px;
+    right: 0;
+}
