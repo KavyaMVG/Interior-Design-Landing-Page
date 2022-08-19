@@ -11,6 +11,11 @@
     padding: 2rem;
     margin: auto;
 }
+
+.hide-for-desktop{
+    display: none;
+}
+
 main{
     height: 100vh;
     background: url("assets/Interior-design-bg.jpg") no-repeat center center fixed; 
@@ -132,4 +137,46 @@ main{
     border-radius: 50%;
     bottom: -7px;
     right: 0;
+}
+
+@media only screen and (max-width: 900px){
+    main{
+        min-height: 100vh;
+    }
+    .container{
+        padding: 1rem;
+    }
+    .hide-for-desktop,
+    .hero {
+        cursor: pointer;
+        display: block;
+    }
+
+    .pin,
+    .nav-list {
+        display: none
+    }
+    .hide-for-desktop div{
+        height: 1px;
+        width: 1.5rem;
+        background-color: #fff;
+        margin: 5px;
+    }
+    .navbar img{
+        height: 30px;
+    }
+    
+    .hero-title{
+        width: 100%;
+        font-size: 2.25rem;
+    }
+    .quote{
+        width: 100%;
+    }
+    .quote:first-child,
+    .quote:last-child{
+        margin: 1rem 0;
+        transform: none;
+    }
+
 }
